@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.red,
             accentColor: Colors.deepOrange,
-            fontFamily: 'Lato'
+            fontFamily: 'Roboto'
         ),
         home: Home(),
       );

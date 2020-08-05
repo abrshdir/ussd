@@ -18,16 +18,7 @@ class CreditCard extends StatelessWidget {
       child: Container(
         width: mediaQuery * 0.8,
         height: mediaQueryHeight * 0.5,
-        decoration: BoxDecoration(
-            color: HexColor(color),
-            borderRadius: BorderRadius.circular(20),
-            boxShadow: [
-              BoxShadow(
-                  color: Colors.grey[600],
-                  offset: Offset(3, 1),
-                  blurRadius: 7,
-                  spreadRadius: 2)
-            ]),
+
         child: Column(
           children: <Widget>[
             Row(
