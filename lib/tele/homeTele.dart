@@ -53,15 +53,11 @@ class _HomeState extends State<Home> {
     return Scaffold(
         backgroundColor: Colors.white,
         body: Container(
-          child: Stack(
-            children: <Widget>[
-              Container(
-                height: 300,
-                decoration: BoxDecoration(
-                    color: HexColor("292a2b"),
-                    ),
-              ),
-              SafeArea(
+          height: mediaQuery.height,
+          decoration: BoxDecoration(
+            color: HexColor("292a2b"),
+          ),
+          child: SafeArea(
                 child: ListView(
                   children: <Widget>[
                     Row(
@@ -234,8 +230,6 @@ class _HomeState extends State<Home> {
                   ],
                 ),
               ),
-            ],
-          ),
         ),
         bottomNavigationBar: Container(
           decoration: BoxDecoration(
