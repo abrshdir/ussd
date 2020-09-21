@@ -18,7 +18,6 @@ class CreditCard extends StatelessWidget {
       child: Container(
         width: mediaQuery * 0.8,
         height: mediaQueryHeight * 0.5,
-
         child: Column(
           children: <Widget>[
             Row(
